@@ -4,6 +4,7 @@ class Customer
     @id = id
     @name = name
     @addr = addr
+    @@total_number_of_customer += 1
   end
 
   def desplay_details()
@@ -13,7 +14,6 @@ class Customer
   end
 
   def count_number_of_customer()
-    @@total_number_of_customer += 1
     puts "Total Number of Customer #@@total_number_of_customer"
   end
 end
