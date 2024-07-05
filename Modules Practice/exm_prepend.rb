@@ -22,4 +22,4 @@ end
 obj = Rabbit.new()
 obj.can_be_housebroken()
 
-Rabbit.can_be_housebroken()
+# Rabbit.can_be_housebroken()

@@ -22,7 +22,7 @@ class Rabbit < Animal
   extend IndoorPet
 end
 
-obj = Rabbit.new()
-obj.can_be_housebroken();
-obj.walk();
-# Rabbit.can_be_housebroken();
+# obj = Rabbit.new()
+# obj.can_be_housebroken();
+# obj.walk();
+Rabbit.can_be_housebroken();
